@@ -9,3 +9,98 @@ html {
   font-size: 62.5%;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ========= Navigation ========= */
+
+/* top header */
+.top-header {
+  gap: 2em;
+  padding: 1.4em 0;
+  background-color: #fff;
+}
+.top-header a {
+  font-size: 1.35rem;
+}
+
+.top-header-left,
+.top-header-right {
+  gap: 3em;
+}
+
+/* Hubspot logo */
+.hubspot-logo {
+  width: 100px;
+  height: 30px;
+}
+nav {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  gap: 2em;
+  padding: 4em 0;
+  background-color: #fff;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 5em;
+  gap: 4em;
+}
+nav ul a {
+  font-size: 1.75rem;
+}
+.start-free {
+  font-size: 1.5rem;
+  padding: 0.7em;
+  border-radius: 4px;
+}
+
+/* ===== Utility Classes ===== */
+.flex {
+  display: flex;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.block {
+  display: block;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.font-bold {
+  font-weight: 700;
+}
+/* brand color */
+.bg-brand {
+  background-color: #ff5c35;
+  color: white;
+}
+.bg-brand:hover {
+  background-color: #f88f74;
+}
+
+/* classes to delete */
+.border {
+  border: 1px solid rgb(226, 226, 226);
+}
+.hover-underline:hover {
+  text-decoration: underline;
+}
