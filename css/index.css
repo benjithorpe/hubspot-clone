@@ -1,4 +1,30 @@
+header {
+  min-height: 90vh;
+  /* overflow: hidden; */
+}
+header > div {
+  flex-basis: 100%;
+}
 .header-short-notice {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-transform: uppercase;
+  color: white;
+  font-size: 1.5rem;
+}
+h1 {
+  margin: 0.15em 0;
+  font-size: 6rem;
+  line-height: 1;
+  color: white;
+  /* color: #2e475d; */
+}
+.intro-text {
+  font-size: 1.7rem;
+  color: white;
+}
+.header-cta {
+  background-color: #fff;
+  width: fit-content;
+  padding: 1.75em;
+  border-radius: 3px;
 }
