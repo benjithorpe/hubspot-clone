@@ -75,6 +75,12 @@ nav ul a {
 .mr-auto {
   margin-right: auto;
 }
+.mt-auto {
+  margin-top: auto;
+}
+/* .mb-auto {
+  margin-bottom: auto;
+} */
 .block {
   display: block;
 }
@@ -89,6 +95,9 @@ nav ul a {
 }
 .text-white {
   color: white;
+}
+.text-center {
+  text-align: center;
 }
 .text-primary {
   color: #2e475d;

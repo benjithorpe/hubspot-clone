@@ -45,6 +45,76 @@ header > div:first-child p:last-child {
 }
 
 /* ======== Features ======= */
+.feat-container {
+  background-color: #f6f9fc;
+}
 .features {
   min-height: 100vh;
+  padding: 6em 2em;
+}
+.features h2 {
+  font-size: 3rem;
+  margin: 1em 0;
+}
+.features-intro-text {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  max-width: 80ch;
+}
+.features-cta {
+  margin-top: 3em;
+  gap: 2em;
+}
+.features-cta a {
+  border-radius: 5px;
+  padding: 0.5em 1.6em;
+  font-size: 1.75rem;
+}
+.features-cta a:last-child {
+  border: 1px solid #ff5c35;
+  color: #ff5c35;
+}
+.features-cards {
+  margin-top: 8em;
+  padding: 2em 8em;
+  gap: 7.5em;
+  grid-template-columns: repeat(3, 1fr);
+}
+.feature-card {
+  padding: 5em;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.feature-card h3 {
+  font-size: 1.95rem;
+  margin-bottom: 1.25em;
+}
+.feature-card p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 4em;
+}
+
+.popular-features {
+  border-top: 1px solid rgb(0, 0, 0, 0.5);
+}
+.popular-features h4 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 1.4em 0;
+}
+.popular-features ul {
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+.popular-features a {
+  padding: 0.75em 1.4em;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  /* width: fit-content; */
 }
