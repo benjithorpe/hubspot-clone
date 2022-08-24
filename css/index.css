@@ -1,30 +1,50 @@
 header {
   min-height: 90vh;
-  /* overflow: hidden; */
+  position: relative;
 }
 header > div {
   flex-basis: 100%;
 }
+header > div:last-child {
+  height: inherit; /* takes the height from the header */
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header > div:last-child img {
+  position: absolute;
+  right: -25em;
+}
 .header-short-notice {
-  /* font-size: 1rem; */
   text-transform: uppercase;
-  color: white;
   font-size: 1.5rem;
 }
 h1 {
   margin: 0.15em 0;
   font-size: 6rem;
   line-height: 1;
-  color: white;
-  /* color: #2e475d; */
 }
 .intro-text {
   font-size: 1.7rem;
-  color: white;
+  max-width: 60ch;
+  line-height: 1.5;
 }
 .header-cta {
+  margin: 1.7em 0;
   background-color: #fff;
   width: fit-content;
-  padding: 1.75em;
+  padding: 1.2em 2em;
+  font-size: 1.7rem;
   border-radius: 3px;
+}
+/* last p tag inside the first div of the header */
+header > div:first-child p:last-child {
+  font-size: 1.5rem;
+  max-width: 25rem;
+}
+
+/* ======== Features ======= */
+.features {
+  min-height: 100vh;
 }

@@ -10,23 +10,25 @@
   </head>
   <body>
     <!-- Extra top headers -->
-    <section class="top-header flex">
+    <section class="top-header flex container">
       <!-- left side -->
       <div class="top-header-left flex">
-        <a href="" class="hover-underline language">English</a>
-        <a href="" class="hover-underline contact-sales">Contact Sales</a>
+        <a href="" class="hover-underline language text-primary">English</a>
+        <a href="" class="hover-underline contact-sales text-primary"
+          >Contact Sales</a
+        >
       </div>
 
       <!-- right side -->
       <div class="top-header-right flex ml-auto">
-        <a href="" class="hover-underline">Login</a>
-        <a href="" class="hover-underline">Customer Support</a>
-        <a href="" class="hover-underline">About</a>
+        <a href="" class="hover-underline text-primary">Login</a>
+        <a href="" class="hover-underline text-primary">Customer Support</a>
+        <a href="" class="hover-underline text-primary">About</a>
       </div>
     </section>
 
     <!-- Navigation -->
-    <nav class="flex items-center border">
+    <nav class="flex items-center container">
       <!-- Hubspot logo -->
       <img
         src="./img/hubspot-logo.svg"
@@ -38,13 +40,13 @@
 
       <!-- menu items -->
       <ul class="flex">
-        <li><a href="" class="hover-underline">Software</a></li>
-        <li><a href="" class="hover-underline">Pricing</a></li>
-        <li><a href="" class="hover-underline">Resources</a></li>
+        <li><a href="" class="hover-underline text-primary">Software</a></li>
+        <li><a href="" class="hover-underline text-primary">Pricing</a></li>
+        <li><a href="" class="hover-underline text-primary">Resources</a></li>
       </ul>
 
       <!-- start free -->
-      <a href="" class="start-free ml-auto bg-brand block font-bold">
+      <a href="" class="start-free ml-auto bg-brand block font-bold text-white">
         Start free or get a demo
       </a>
     </nav>
@@ -52,32 +54,51 @@
     <!-- Main content -->
     <main>
       <!-- header -->
-      <header class="flex bg-brand items-center justify-center">
-        <div>
-          <!-- short notice -->
-          <p class="header-short-notice font-bold">HUBSPOT CRM PLATFORM</p>
+      <div class="bg-brand">
+        <header class="flex items-center justify-center container">
+          <div>
+            <!-- short notice -->
+            <p class="header-short-notice font-bold text-white">
+              HUBSPOT CRM PLATFORM
+            </p>
 
-          <h1>
-            Powerful, <br />
-            not overpowering
-          </h1>
-          <p class="intro-text">
-            Finally, a CRM platform that's both powerful and easy to use. Create
-            delightful customer experiences. Have a delightful time doing it.
-          </p>
+            <h1 class="text-white">
+              Powerful, <br />
+              not overpowering
+            </h1>
+            <p class="intro-text text-white">
+              Finally, a CRM platform that's both powerful and easy to use.
+              Create delightful customer experiences. Have a delightful time
+              doing it.
+            </p>
 
-          <a href="" class="header-cta block font-bold">
-            Start free or get a demo
-          </a>
-        </div>
+            <!-- Call to action -->
+            <a href="" class="header-cta block font-bold text-primary">
+              Start free or get a demo
+            </a>
 
-        <div>
-          <img
-            src="./img/SUI-Homepage-Header-Desktop@2x.png"
-            alt="Header image"
-          />
-        </div>
-      </header>
+            <!-- extra notice info -->
+            <p class="text-white">
+              Get started with free tools, or get more with our premium
+              software.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="./img/SUI-Homepage-Header-Desktop@2x.png"
+              alt="Header image"
+            />
+          </div>
+        </header>
+      </div>
+
+      <!-- features -->
+      <section class="features">
+        <h2 class="text-primary">
+          The CRM Platform Your Whole Business Will Love
+        </h2>
+      </section>
     </main>
   </body>
 </html>
