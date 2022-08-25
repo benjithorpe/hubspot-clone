@@ -159,6 +159,7 @@ h3.stat-add-plus::after {
 .stat-card p {
   font-size: 1.7rem;
 }
+
 /* Remove borders from stats card */
 .stat-card:first-child,
 .stat-card:nth-child(2),
@@ -180,4 +181,9 @@ h3.stat-add-plus::after {
 .stat-card:nth-child(1),
 .stat-card:nth-child(5) {
   border-left: none;
+}
+
+/* ======= Customers ======= */
+.customers {
+  min-height: 100vh;
 }
