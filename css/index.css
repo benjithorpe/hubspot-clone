@@ -185,5 +185,50 @@ h3.stat-add-plus::after {
 
 /* ======= Customers ======= */
 .customers {
-  min-height: 100vh;
+  min-height: 50vh;
+}
+.customers > div {
+  flex-basis: 100%;
+}
+.customers-intro h3 {
+  font-size: 4rem;
+  margin-bottom: 1em;
+}
+.customers-intro p {
+  font-size: 1.8rem;
+  max-width: 47ch;
+  line-height: 1.5;
+}
+.customers-logo {
+  gap: 4em;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ======= Start Growing ======= */
+.start-growing {
+  min-height: 80vh;
+  gap: 5em;
+  justify-content: space-evenly;
+}
+.start-growing h3 {
+  font-size: 3rem;
+}
+.start-growing p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  margin: 1.3em 0;
+  max-width: 70ch;
+}
+.start-growing a {
+  width: fit-content;
+  padding: 1.2em 2em;
+  border-radius: 4px;
+  font-size: 1.7rem;
+  margin-bottom: 1em;
+}
+.start-growing span {
+  font-size: 1.4rem;
+}
+.start-growing img {
+  width: 400px;
 }
