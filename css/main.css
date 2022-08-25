@@ -37,11 +37,8 @@ a {
   gap: 3em;
 }
 nav {
-  height: 10vh;
-  position: sticky;
-  top: 0;
-  gap: 2em;
-  padding: 4em 0;
+  min-height: 10vh;
+  padding: 4.5em 0;
   background-color: #fff;
 }
 nav ul {
@@ -61,6 +58,9 @@ nav ul a {
 /* ===== Utility Classes ===== */
 .flex {
   display: flex;
+}
+.flex-col {
+  flex-direction: column;
 }
 .grid {
   display: grid;
@@ -102,18 +102,13 @@ nav ul a {
 .text-primary {
   color: #2e475d;
 }
-/* brand color */
 .bg-brand {
-  background-color: #ff5c35;
+  background-color: #ff5c35; /* brand color */
 }
-/* .bg-brand:hover {
-  background-color: #f88f74;
-} */
 .container {
   width: 90%;
   margin: 0 auto;
 }
-/* classes to delete */
 .border {
   border: 1px solid rgb(226, 226, 226);
 }
