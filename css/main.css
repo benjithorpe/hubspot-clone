@@ -55,6 +55,26 @@ nav ul a {
   border-radius: 4px;
 }
 
+/* ========= Footer ========= */
+.footer-container {
+  margin-top: 3em;
+  background-color: #213343;
+}
+footer {
+  min-height: 100vh;
+  padding: 5em 0;
+}
+.social-media-sitemap {
+  gap: 5em;
+}
+/* .social-media-sitemap::after, .social-media-sitemap::before{
+  content
+} */
+.social-media-sitemap a {
+  font-size: 1.7rem;
+  color: white;
+}
+
 /* ===== Utility Classes ===== */
 .flex {
   display: flex;
