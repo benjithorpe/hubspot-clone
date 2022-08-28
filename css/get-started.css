@@ -1,0 +1,111 @@
+@import url('./utilities.css');
+
+body {
+  background-color: #f6f9fc;
+}
+nav {
+  min-height: 10vh;
+}
+header {
+  min-height: 90vh;
+}
+h1 {
+  font-size: 4.5rem;
+}
+header p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 1.7rem;
+  max-width: 70ch;
+  line-height: 1.5;
+}
+.header-cta {
+  gap: 5em;
+  margin-bottom: 16em;
+}
+.header-cta a {
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 1em 4em;
+}
+header small {
+  font-size: 1.7rem;
+}
+
+article {
+  min-height: 100vh;
+  gap: 5em;
+}
+aside {
+  min-width: max-content;
+}
+aside h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1.3em;
+}
+aside ul {
+  gap: 3em;
+}
+aside ul li {
+  font-size: 2.78em;
+  cursor: pointer;
+}
+article > section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10em 5em;
+  gap: 5em;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+.intro-head h2 {
+  position: relative;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+.intro-head p {
+  font-size: 1.65rem;
+  max-width: 40ch;
+  line-height: 1.4;
+  margin-bottom: 1.7em;
+}
+.intro-head a {
+  max-width: fit-content;
+  padding: 0.7em 2em;
+  font-size: 1.5rem;
+  border-radius: 3px;
+}
+.intro-head h2::after {
+  content: 'TM';
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+}
+.premium-features h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.premium-features ul {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+.premium-features ul li {
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  max-width: 20ch;
+}
+
+footer {
+  background-color: #213343;
+  min-height: 30vh;
+  gap: 5em;
+}
+footer p {
+  font-size: 1.7rem;
+}
+footer span {
+  gap: 5em;
+}
+footer span a {
+  font-size: 1.6rem;
+}
