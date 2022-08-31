@@ -1,0 +1,24 @@
+@import url('./utilities.css');
+
+nav {
+  min-height: 10vh;
+  justify-content: space-between;
+}
+nav a {
+  font-size: 1.7rem;
+}
+.header-container {
+  background-color: #213343;
+}
+header {
+  min-height: 60vh;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+header p {
+  max-width: 70ch;
+  font-size: 1.7rem;
+}
