@@ -22,3 +22,37 @@ header p {
   max-width: 70ch;
   font-size: 1.7rem;
 }
+article {
+  min-height: 100vh;
+  padding: 5em;
+  grid-template-columns: repeat(2, 375px);
+  gap: 5em;
+  background-color: #f6f9fc;
+}
+section {
+  box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+}
+section h2 {
+  padding: 1.75em 1.5em;
+  font-size: 2rem;
+}
+section > p:nth-child(2) {
+  font-size: 1.6rem;
+  padding: 5em 3em;
+  line-height: 1.5;
+}
+.popular-features {
+  padding: 1em 4em;
+}
+.popular-features > p:first-child {
+  font-size: 1.4rem;
+}
+.popular-features > ul {
+  margin-top: 2em;
+  line-height: 2.5;
+}
+.popular-features > ul li {
+  font-size: 1.3rem;
+}
